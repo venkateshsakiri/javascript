@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>JS Form Validations</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+h1{
+   background-color: rgb(20, 240, 200);
+   font-size: 35px;
+   text-align: center;
+}
+.msg{
+    margin-top: 60px;
+    margin-left: 40%;
+    text-align: center;
+    border: 1px solid black;
+    width: 260px;
+    height: 75vh;
+    padding: 0px;
+    background-color: #fcf8f8;
+    float: left;
+}
+h2{
+    color: cornsilk;
+    background:linear-gradient(45deg ,rgb(72, 72, 156),black );
+    padding: 10px;
+}
+form{
+    padding: 8px;
+}
+input{
+    padding: 10px;
+    margin: 10px auto;
+}
+#submit{
+    background-color:rgb(20, 240, 200);
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 8px;
+}
+#submit:hover{
+    color: black;
+    background-color: orchid;
+}
+p{
+    margin-bottom: 15px;
+   
+
+}
+</style>
+<body>
+    <h1>JS Form Validations</h1>
+    <div class="msg">
+       <h2>Registration</h2>
+       <form>
+           <input id="uname" type="text" placeholder="UserName">
+           <p id="msg1"></p>
+           <input id="email" type="email" placeholder="Email">
+           <p id="msg2"></p>
+           <input id="password" type="password" placeholder="Password">
+           <p id="msg3"></p>
+           <input id="C_password" type="password" placeholder="Confirm Password">
+           <p id="msg4"></p>
+            <input id="submit" type="button" value="REGISTER" onclick="validation()"> 
+
+        </form>
+    </div>
+    <script>
+     function validateEmail(email) {
+    const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+  }
+  validateEmail();
+function validation(){   
+    let x =document.getElementById('uname');          
+// let
+//  y =document.getElementById('email');          
+let z =document.getElementById('password').value;       
+let a =document.getElementById('C_password').value;
+
+
+
+    if(x.value==='' || x.value==="null" ){
+        document.getElementById('msg1').innerHTML='please enter your user name';
+        document.getElementById('msg1').style.color='red';
+        document.getElementById('uname').style.border='2px solid red';
+        
+    }else if(x.value.length<8){
+        document.getElementById('msg1').innerHTML="please Enter minimum 8 characters";
+        document.getElementById('msg1').style.color='red';
+        document.getElementById('uname').style.border='2px solid red';
+
+    }
+    else{
+        document.getElementById('msg1').innerHTML="UserName Ok";
+        document.getElementById('msg1').style.color='green';
+        document.getElementById('uname').style.border='2px solid green';
+    }
+    // 
+    //  if(y.value==='' || y.value==="null"){
+        //  
+        //  document.getElementById('msg2')
+        //  document.getElementById('msg2').style.color='red';
+        //  document.getElementById('email').style.border='2px solid red';
+    //  }
+    //  else if(y.value!=='mailFormat')
+    //  {
+            // 
+    //   document.getElementById('msg2').innerHTML='please enter valid email';
+    //   document.getElementById('msg2').style.color='red';
+    //   document.getElementById('email').style.border='2px solid red';
+    //  }
+    //  else if(y.value=='mailFormat')
+// {
+    //    
+//  document.getElementById('msg2').innerHTML='Email Ok';
+//  document.getElementById('msg2').style.color='green';
+//  document.getElementById('email').style.border='2px solid green';
+// }
+
+    //  else{
+            //  document.getElementById('msg2').innerHTML="Emali Ok";
+            //  document.getElementById('msg2').style.color='green';
+            //  document.getElementById('email').style.border='2px solid green';
+
+    //  }
+    const msg = document.getElementById('msg2');
+    const email = document.getElementById('email').value;
+    if(email==="" || email==="null"){
+        msg.innerHTML='Please enter your email';
+        msg.style.color="red";
+       document.getElementById('email').style.border="2px solid red";
+    }
+    
+  else  if(validateEmail(email)){
+        msg.innerHTML='Your email is valid';
+        msg.style.color="green";
+        document.getElementById('email').style.border="2px solid green";
+    }
+    else{
+      msg.innerHTML='Your email is not valid';
+      msg.style.color="red";
+      document.getElementById('email').style.border="2px solid red";
+    }
+
+    // about password-------------
+
+   if(z===''||z==="null"){
+    document.getElementById('msg3').innerHTML="Please enter your password";
+    document.getElementById('msg3').style.color='red';
+     document.getElementById('password').style.border='2px solid red';
+   }
+   else if(z.length<8){
+     document.getElementById('msg3').innerHTML="Please enter 8 Charcters";
+        document.getElementById('msg3').style.color='red';
+       document.getElementById('password').style.border='2px solid red';
+    }
+    else{
+        document.getElementById('msg3').innerHTML='You enterd password'
+        document.getElementById('msg3').style.color='red';
+        document.getElementById('password').style.border='2px solid red';
+    }
+    if(a===""){
+        document.getElementById('msg4').innerHTML='Please enter Your Password';
+
+         document.getElementById('msg4').style.color='red';
+        document.getElementById('C_password').style.border='2px solid red';
+
+    }
+   else if(z!==a)
+     {
+        document.getElementById('msg4').innerHTML='password and conirm password must be same';
+
+        document.getElementById('msg4').style.color='red';
+        document.getElementById('C_password').style.border='2px solid red';
+    }
+    else{
+       
+        document.getElementById('msg3').style.color='green';
+        document.getElementById('msg4').style.color='green';
+        document.getElementById('C_password').style.border="2px solid green";
+        document.getElementById('password').style.border="2px solid green";
+        document.getElementById('msg1').style.display='none';
+        document.getElementById('msg2').style.display='none';
+        document.getElementById('msg3').style.display='none';
+        document.getElementById('msg4').innerHTML='form submitted successfully';
+    }
+
+}
+    
+   
+    
+
+    </script>
+
+    <!-- <script src="valid.js" defer></script>  -->
+</body>
+</html>

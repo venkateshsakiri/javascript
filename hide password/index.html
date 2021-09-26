@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/aaf71d4151.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <style>
+        .icon {
+            position: relative;
+        }
+        
+        #hide1 {
+            position: absolute;
+            top: 2px;
+            left: 151px;
+            display: none;
+        }
+        
+        #hide2 {
+            position: absolute;
+            top: 2px;
+            left: 151px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <label for="name">Password:</label>
+        <div class="icon">
+            <input type="password" id="password">
+            <i id="hide1" class="far fa-eye-slash" onclick="hidePassword()"></i>
+            <i id='hide2' class="fas fa-eye" onclick="hidePassword()"></i>
+        </div>
+        <!-- <input type="button" id="btn" value="show Password" onclick="hidePassword()"> -->
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random background</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #283faa;
+            display: grid;
+        }
+        button{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,50%);
+            font-size: 20px;
+            place-items: center;
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: 1px solid #727272;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function randomColor(){
+            document.body.style.backgroundColor='rgb(' + Math.round(Math.random() *255) + ',' +Math.round(Math.random() *255) + ',' +Math.round(Math.random() *255) + ')';
+        }
+    </script>
+</head>
+<body>
+   <button onclick="randomColor()">ClickMe</button>
+</body>
+</html>
