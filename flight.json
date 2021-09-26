@@ -1,0 +1,1170 @@
+{
+	"summary": [{
+		"trnInterval": "> 60",
+		"paxCount": "28",
+		"Trndate": "2021-08-26",
+		"trnHour": "0"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "69",
+		"Trndate": "2021-08-26",
+		"trnHour": "0"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "36",
+		"Trndate": "2021-08-26",
+		"trnHour": "1"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "56",
+		"Trndate": "2021-08-26",
+		"trnHour": "1"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "1",
+		"Trndate": "2021-08-26",
+		"trnHour": "1"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "40",
+		"Trndate": "2021-08-26",
+		"trnHour": "2"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "53",
+		"Trndate": "2021-08-26",
+		"trnHour": "2"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "1",
+		"Trndate": "2021-08-26",
+		"trnHour": "2"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "81",
+		"Trndate": "2021-08-26",
+		"trnHour": "3"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "47",
+		"Trndate": "2021-08-26",
+		"trnHour": "3"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "25",
+		"Trndate": "2021-08-26",
+		"trnHour": "3"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "32",
+		"Trndate": "2021-08-26",
+		"trnHour": "3"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "41",
+		"Trndate": "2021-08-26",
+		"trnHour": "3"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "102",
+		"Trndate": "2021-08-26",
+		"trnHour": "4"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "113",
+		"Trndate": "2021-08-26",
+		"trnHour": "4"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "83",
+		"Trndate": "2021-08-26",
+		"trnHour": "4"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "68",
+		"Trndate": "2021-08-26",
+		"trnHour": "4"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "37",
+		"Trndate": "2021-08-26",
+		"trnHour": "4"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "119",
+		"Trndate": "2021-08-26",
+		"trnHour": "5"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "140",
+		"Trndate": "2021-08-26",
+		"trnHour": "5"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "104",
+		"Trndate": "2021-08-26",
+		"trnHour": "5"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "122",
+		"Trndate": "2021-08-26",
+		"trnHour": "5"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "85",
+		"Trndate": "2021-08-26",
+		"trnHour": "5"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "117",
+		"Trndate": "2021-08-26",
+		"trnHour": "6"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "141",
+		"Trndate": "2021-08-26",
+		"trnHour": "6"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "121",
+		"Trndate": "2021-08-26",
+		"trnHour": "6"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "126",
+		"Trndate": "2021-08-26",
+		"trnHour": "6"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "87",
+		"Trndate": "2021-08-26",
+		"trnHour": "6"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "147",
+		"Trndate": "2021-08-26",
+		"trnHour": "7"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "130",
+		"Trndate": "2021-08-26",
+		"trnHour": "7"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "61",
+		"Trndate": "2021-08-26",
+		"trnHour": "7"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "68",
+		"Trndate": "2021-08-26",
+		"trnHour": "7"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "101",
+		"Trndate": "2021-08-26",
+		"trnHour": "7"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "144",
+		"Trndate": "2021-08-26",
+		"trnHour": "8"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "146",
+		"Trndate": "2021-08-26",
+		"trnHour": "8"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "79",
+		"Trndate": "2021-08-26",
+		"trnHour": "8"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "95",
+		"Trndate": "2021-08-26",
+		"trnHour": "8"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "101",
+		"Trndate": "2021-08-26",
+		"trnHour": "8"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "137",
+		"Trndate": "2021-08-26",
+		"trnHour": "9"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "130",
+		"Trndate": "2021-08-26",
+		"trnHour": "9"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "97",
+		"Trndate": "2021-08-26",
+		"trnHour": "9"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "116",
+		"Trndate": "2021-08-26",
+		"trnHour": "9"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "85",
+		"Trndate": "2021-08-26",
+		"trnHour": "9"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "129",
+		"Trndate": "2021-08-26",
+		"trnHour": "10"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "99",
+		"Trndate": "2021-08-26",
+		"trnHour": "10"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "58",
+		"Trndate": "2021-08-26",
+		"trnHour": "10"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "39",
+		"Trndate": "2021-08-26",
+		"trnHour": "10"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "25",
+		"Trndate": "2021-08-26",
+		"trnHour": "10"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "123",
+		"Trndate": "2021-08-26",
+		"trnHour": "11"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "118",
+		"Trndate": "2021-08-26",
+		"trnHour": "11"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "65",
+		"Trndate": "2021-08-26",
+		"trnHour": "11"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "64",
+		"Trndate": "2021-08-26",
+		"trnHour": "11"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "65",
+		"Trndate": "2021-08-26",
+		"trnHour": "11"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "125",
+		"Trndate": "2021-08-26",
+		"trnHour": "12"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "159",
+		"Trndate": "2021-08-26",
+		"trnHour": "12"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "54",
+		"Trndate": "2021-08-26",
+		"trnHour": "12"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "72",
+		"Trndate": "2021-08-26",
+		"trnHour": "12"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "94",
+		"Trndate": "2021-08-26",
+		"trnHour": "12"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "136",
+		"Trndate": "2021-08-26",
+		"trnHour": "13"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "163",
+		"Trndate": "2021-08-26",
+		"trnHour": "13"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "78",
+		"Trndate": "2021-08-26",
+		"trnHour": "13"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "88",
+		"Trndate": "2021-08-26",
+		"trnHour": "13"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "65",
+		"Trndate": "2021-08-26",
+		"trnHour": "13"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "154",
+		"Trndate": "2021-08-26",
+		"trnHour": "14"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "82",
+		"Trndate": "2021-08-26",
+		"trnHour": "14"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "44",
+		"Trndate": "2021-08-26",
+		"trnHour": "14"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "91",
+		"Trndate": "2021-08-26",
+		"trnHour": "14"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "92",
+		"Trndate": "2021-08-26",
+		"trnHour": "14"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "154",
+		"Trndate": "2021-08-26",
+		"trnHour": "15"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "121",
+		"Trndate": "2021-08-26",
+		"trnHour": "15"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "94",
+		"Trndate": "2021-08-26",
+		"trnHour": "15"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "100",
+		"Trndate": "2021-08-26",
+		"trnHour": "15"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "75",
+		"Trndate": "2021-08-26",
+		"trnHour": "15"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "180",
+		"Trndate": "2021-08-26",
+		"trnHour": "16"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "107",
+		"Trndate": "2021-08-26",
+		"trnHour": "16"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "33",
+		"Trndate": "2021-08-26",
+		"trnHour": "16"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "57",
+		"Trndate": "2021-08-26",
+		"trnHour": "16"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "77",
+		"Trndate": "2021-08-26",
+		"trnHour": "16"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "171",
+		"Trndate": "2021-08-26",
+		"trnHour": "17"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "120",
+		"Trndate": "2021-08-26",
+		"trnHour": "17"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "83",
+		"Trndate": "2021-08-26",
+		"trnHour": "17"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "113",
+		"Trndate": "2021-08-26",
+		"trnHour": "17"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "100",
+		"Trndate": "2021-08-26",
+		"trnHour": "17"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "140",
+		"Trndate": "2021-08-26",
+		"trnHour": "18"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "78",
+		"Trndate": "2021-08-26",
+		"trnHour": "18"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "66",
+		"Trndate": "2021-08-26",
+		"trnHour": "18"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "98",
+		"Trndate": "2021-08-26",
+		"trnHour": "18"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "80",
+		"Trndate": "2021-08-26",
+		"trnHour": "18"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "134",
+		"Trndate": "2021-08-26",
+		"trnHour": "19"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "118",
+		"Trndate": "2021-08-26",
+		"trnHour": "19"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "76",
+		"Trndate": "2021-08-26",
+		"trnHour": "19"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "82",
+		"Trndate": "2021-08-26",
+		"trnHour": "19"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "71",
+		"Trndate": "2021-08-26",
+		"trnHour": "19"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "108",
+		"Trndate": "2021-08-26",
+		"trnHour": "20"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "111",
+		"Trndate": "2021-08-26",
+		"trnHour": "20"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "26",
+		"Trndate": "2021-08-26",
+		"trnHour": "20"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "39",
+		"Trndate": "2021-08-26",
+		"trnHour": "20"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "51",
+		"Trndate": "2021-08-26",
+		"trnHour": "20"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "12",
+		"Trndate": "2021-08-26",
+		"trnHour": "21"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "68",
+		"Trndate": "2021-08-26",
+		"trnHour": "21"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "49",
+		"Trndate": "2021-08-26",
+		"trnHour": "21"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "27",
+		"Trndate": "2021-08-26",
+		"trnHour": "21"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "28",
+		"Trndate": "2021-08-26",
+		"trnHour": "21"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "33",
+		"Trndate": "2021-08-26",
+		"trnHour": "22"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "21",
+		"Trndate": "2021-08-26",
+		"trnHour": "22"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "6",
+		"Trndate": "2021-08-26",
+		"trnHour": "22"
+	}],
+	"graphReport": [{
+		"trnInterval": "> 60",
+		"paxCount": "28",
+		"trnDisplayHour": "00 - 01",
+		"trnDate": "2021-08-26",
+		"trnHour": "0"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "69",
+		"trnDisplayHour": "00 - 01",
+		"trnDate": "2021-08-26",
+		"trnHour": "0"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "36",
+		"trnDisplayHour": "01 - 02",
+		"trnDate": "2021-08-26",
+		"trnHour": "1"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "56",
+		"trnDisplayHour": "01 - 02",
+		"trnDate": "2021-08-26",
+		"trnHour": "1"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "1",
+		"trnDisplayHour": "01 - 02",
+		"trnDate": "2021-08-26",
+		"trnHour": "1"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "40",
+		"trnDisplayHour": "02 - 03",
+		"trnDate": "2021-08-26",
+		"trnHour": "2"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "53",
+		"trnDisplayHour": "02 - 03",
+		"trnDate": "2021-08-26",
+		"trnHour": "2"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "1",
+		"trnDisplayHour": "02 - 03",
+		"trnDate": "2021-08-26",
+		"trnHour": "2"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "81",
+		"trnDisplayHour": "03 - 04",
+		"trnDate": "2021-08-26",
+		"trnHour": "3"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "47",
+		"trnDisplayHour": "03 - 04",
+		"trnDate": "2021-08-26",
+		"trnHour": "3"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "25",
+		"trnDisplayHour": "03 - 04",
+		"trnDate": "2021-08-26",
+		"trnHour": "3"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "32",
+		"trnDisplayHour": "03 - 04",
+		"trnDate": "2021-08-26",
+		"trnHour": "3"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "41",
+		"trnDisplayHour": "03 - 04",
+		"trnDate": "2021-08-26",
+		"trnHour": "3"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "102",
+		"trnDisplayHour": "04 - 05",
+		"trnDate": "2021-08-26",
+		"trnHour": "4"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "113",
+		"trnDisplayHour": "04 - 05",
+		"trnDate": "2021-08-26",
+		"trnHour": "4"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "83",
+		"trnDisplayHour": "04 - 05",
+		"trnDate": "2021-08-26",
+		"trnHour": "4"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "68",
+		"trnDisplayHour": "04 - 05",
+		"trnDate": "2021-08-26",
+		"trnHour": "4"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "37",
+		"trnDisplayHour": "04 - 05",
+		"trnDate": "2021-08-26",
+		"trnHour": "4"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "119",
+		"trnDisplayHour": "05 - 06",
+		"trnDate": "2021-08-26",
+		"trnHour": "5"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "140",
+		"trnDisplayHour": "05 - 06",
+		"trnDate": "2021-08-26",
+		"trnHour": "5"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "104",
+		"trnDisplayHour": "05 - 06",
+		"trnDate": "2021-08-26",
+		"trnHour": "5"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "122",
+		"trnDisplayHour": "05 - 06",
+		"trnDate": "2021-08-26",
+		"trnHour": "5"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "85",
+		"trnDisplayHour": "05 - 06",
+		"trnDate": "2021-08-26",
+		"trnHour": "5"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "117",
+		"trnDisplayHour": "06 - 07",
+		"trnDate": "2021-08-26",
+		"trnHour": "6"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "141",
+		"trnDisplayHour": "06 - 07",
+		"trnDate": "2021-08-26",
+		"trnHour": "6"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "121",
+		"trnDisplayHour": "06 - 07",
+		"trnDate": "2021-08-26",
+		"trnHour": "6"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "126",
+		"trnDisplayHour": "06 - 07",
+		"trnDate": "2021-08-26",
+		"trnHour": "6"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "87",
+		"trnDisplayHour": "06 - 07",
+		"trnDate": "2021-08-26",
+		"trnHour": "6"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "147",
+		"trnDisplayHour": "07 - 08",
+		"trnDate": "2021-08-26",
+		"trnHour": "7"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "130",
+		"trnDisplayHour": "07 - 08",
+		"trnDate": "2021-08-26",
+		"trnHour": "7"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "61",
+		"trnDisplayHour": "07 - 08",
+		"trnDate": "2021-08-26",
+		"trnHour": "7"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "68",
+		"trnDisplayHour": "07 - 08",
+		"trnDate": "2021-08-26",
+		"trnHour": "7"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "101",
+		"trnDisplayHour": "07 - 08",
+		"trnDate": "2021-08-26",
+		"trnHour": "7"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "144",
+		"trnDisplayHour": "08 - 09",
+		"trnDate": "2021-08-26",
+		"trnHour": "8"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "146",
+		"trnDisplayHour": "08 - 09",
+		"trnDate": "2021-08-26",
+		"trnHour": "8"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "79",
+		"trnDisplayHour": "08 - 09",
+		"trnDate": "2021-08-26",
+		"trnHour": "8"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "95",
+		"trnDisplayHour": "08 - 09",
+		"trnDate": "2021-08-26",
+		"trnHour": "8"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "101",
+		"trnDisplayHour": "08 - 09",
+		"trnDate": "2021-08-26",
+		"trnHour": "8"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "137",
+		"trnDisplayHour": "09 - 10",
+		"trnDate": "2021-08-26",
+		"trnHour": "9"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "130",
+		"trnDisplayHour": "09 - 10",
+		"trnDate": "2021-08-26",
+		"trnHour": "9"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "97",
+		"trnDisplayHour": "09 - 10",
+		"trnDate": "2021-08-26",
+		"trnHour": "9"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "116",
+		"trnDisplayHour": "09 - 10",
+		"trnDate": "2021-08-26",
+		"trnHour": "9"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "85",
+		"trnDisplayHour": "09 - 10",
+		"trnDate": "2021-08-26",
+		"trnHour": "9"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "129",
+		"trnDisplayHour": "10 - 11",
+		"trnDate": "2021-08-26",
+		"trnHour": "10"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "99",
+		"trnDisplayHour": "10 - 11",
+		"trnDate": "2021-08-26",
+		"trnHour": "10"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "58",
+		"trnDisplayHour": "10 - 11",
+		"trnDate": "2021-08-26",
+		"trnHour": "10"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "39",
+		"trnDisplayHour": "10 - 11",
+		"trnDate": "2021-08-26",
+		"trnHour": "10"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "25",
+		"trnDisplayHour": "10 - 11",
+		"trnDate": "2021-08-26",
+		"trnHour": "10"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "123",
+		"trnDisplayHour": "11 - 12",
+		"trnDate": "2021-08-26",
+		"trnHour": "11"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "118",
+		"trnDisplayHour": "11 - 12",
+		"trnDate": "2021-08-26",
+		"trnHour": "11"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "65",
+		"trnDisplayHour": "11 - 12",
+		"trnDate": "2021-08-26",
+		"trnHour": "11"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "64",
+		"trnDisplayHour": "11 - 12",
+		"trnDate": "2021-08-26",
+		"trnHour": "11"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "65",
+		"trnDisplayHour": "11 - 12",
+		"trnDate": "2021-08-26",
+		"trnHour": "11"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "125",
+		"trnDisplayHour": "12 - 13",
+		"trnDate": "2021-08-26",
+		"trnHour": "12"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "159",
+		"trnDisplayHour": "12 - 13",
+		"trnDate": "2021-08-26",
+		"trnHour": "12"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "54",
+		"trnDisplayHour": "12 - 13",
+		"trnDate": "2021-08-26",
+		"trnHour": "12"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "72",
+		"trnDisplayHour": "12 - 13",
+		"trnDate": "2021-08-26",
+		"trnHour": "12"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "94",
+		"trnDisplayHour": "12 - 13",
+		"trnDate": "2021-08-26",
+		"trnHour": "12"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "136",
+		"trnDisplayHour": "13 - 14",
+		"trnDate": "2021-08-26",
+		"trnHour": "13"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "163",
+		"trnDisplayHour": "13 - 14",
+		"trnDate": "2021-08-26",
+		"trnHour": "13"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "78",
+		"trnDisplayHour": "13 - 14",
+		"trnDate": "2021-08-26",
+		"trnHour": "13"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "88",
+		"trnDisplayHour": "13 - 14",
+		"trnDate": "2021-08-26",
+		"trnHour": "13"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "65",
+		"trnDisplayHour": "13 - 14",
+		"trnDate": "2021-08-26",
+		"trnHour": "13"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "154",
+		"trnDisplayHour": "14 - 15",
+		"trnDate": "2021-08-26",
+		"trnHour": "14"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "82",
+		"trnDisplayHour": "14 - 15",
+		"trnDate": "2021-08-26",
+		"trnHour": "14"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "44",
+		"trnDisplayHour": "14 - 15",
+		"trnDate": "2021-08-26",
+		"trnHour": "14"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "91",
+		"trnDisplayHour": "14 - 15",
+		"trnDate": "2021-08-26",
+		"trnHour": "14"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "92",
+		"trnDisplayHour": "14 - 15",
+		"trnDate": "2021-08-26",
+		"trnHour": "14"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "154",
+		"trnDisplayHour": "15 - 16",
+		"trnDate": "2021-08-26",
+		"trnHour": "15"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "121",
+		"trnDisplayHour": "15 - 16",
+		"trnDate": "2021-08-26",
+		"trnHour": "15"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "94",
+		"trnDisplayHour": "15 - 16",
+		"trnDate": "2021-08-26",
+		"trnHour": "15"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "100",
+		"trnDisplayHour": "15 - 16",
+		"trnDate": "2021-08-26",
+		"trnHour": "15"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "75",
+		"trnDisplayHour": "15 - 16",
+		"trnDate": "2021-08-26",
+		"trnHour": "15"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "180",
+		"trnDisplayHour": "16 - 17",
+		"trnDate": "2021-08-26",
+		"trnHour": "16"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "107",
+		"trnDisplayHour": "16 - 17",
+		"trnDate": "2021-08-26",
+		"trnHour": "16"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "33",
+		"trnDisplayHour": "16 - 17",
+		"trnDate": "2021-08-26",
+		"trnHour": "16"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "57",
+		"trnDisplayHour": "16 - 17",
+		"trnDate": "2021-08-26",
+		"trnHour": "16"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "77",
+		"trnDisplayHour": "16 - 17",
+		"trnDate": "2021-08-26",
+		"trnHour": "16"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "171",
+		"trnDisplayHour": "17 - 18",
+		"trnDate": "2021-08-26",
+		"trnHour": "17"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "120",
+		"trnDisplayHour": "17 - 18",
+		"trnDate": "2021-08-26",
+		"trnHour": "17"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "83",
+		"trnDisplayHour": "17 - 18",
+		"trnDate": "2021-08-26",
+		"trnHour": "17"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "113",
+		"trnDisplayHour": "17 - 18",
+		"trnDate": "2021-08-26",
+		"trnHour": "17"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "100",
+		"trnDisplayHour": "17 - 18",
+		"trnDate": "2021-08-26",
+		"trnHour": "17"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "140",
+		"trnDisplayHour": "18 - 19",
+		"trnDate": "2021-08-26",
+		"trnHour": "18"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "78",
+		"trnDisplayHour": "18 - 19",
+		"trnDate": "2021-08-26",
+		"trnHour": "18"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "66",
+		"trnDisplayHour": "18 - 19",
+		"trnDate": "2021-08-26",
+		"trnHour": "18"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "98",
+		"trnDisplayHour": "18 - 19",
+		"trnDate": "2021-08-26",
+		"trnHour": "18"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "80",
+		"trnDisplayHour": "18 - 19",
+		"trnDate": "2021-08-26",
+		"trnHour": "18"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "134",
+		"trnDisplayHour": "19 - 20",
+		"trnDate": "2021-08-26",
+		"trnHour": "19"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "118",
+		"trnDisplayHour": "19 - 20",
+		"trnDate": "2021-08-26",
+		"trnHour": "19"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "76",
+		"trnDisplayHour": "19 - 20",
+		"trnDate": "2021-08-26",
+		"trnHour": "19"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "82",
+		"trnDisplayHour": "19 - 20",
+		"trnDate": "2021-08-26",
+		"trnHour": "19"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "71",
+		"trnDisplayHour": "19 - 20",
+		"trnDate": "2021-08-26",
+		"trnHour": "19"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "108",
+		"trnDisplayHour": "20 - 21",
+		"trnDate": "2021-08-26",
+		"trnHour": "20"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "111",
+		"trnDisplayHour": "20 - 21",
+		"trnDate": "2021-08-26",
+		"trnHour": "20"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "26",
+		"trnDisplayHour": "20 - 21",
+		"trnDate": "2021-08-26",
+		"trnHour": "20"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "39",
+		"trnDisplayHour": "20 - 21",
+		"trnDate": "2021-08-26",
+		"trnHour": "20"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "51",
+		"trnDisplayHour": "20 - 21",
+		"trnDate": "2021-08-26",
+		"trnHour": "20"
+	}, {
+		"trnInterval": "> 60",
+		"paxCount": "12",
+		"trnDisplayHour": "21 - 22",
+		"trnDate": "2021-08-26",
+		"trnHour": "21"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "68",
+		"trnDisplayHour": "21 - 22",
+		"trnDate": "2021-08-26",
+		"trnHour": "21"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "49",
+		"trnDisplayHour": "21 - 22",
+		"trnDate": "2021-08-26",
+		"trnHour": "21"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "27",
+		"trnDisplayHour": "21 - 22",
+		"trnDate": "2021-08-26",
+		"trnHour": "21"
+	}, {
+		"trnInterval": "46-60",
+		"paxCount": "28",
+		"trnDisplayHour": "21 - 22",
+		"trnDate": "2021-08-26",
+		"trnHour": "21"
+	}, {
+		"trnInterval": "0-15",
+		"paxCount": "33",
+		"trnDisplayHour": "22 - 23",
+		"trnDate": "2021-08-26",
+		"trnHour": "22"
+	}, {
+		"trnInterval": "16-30",
+		"paxCount": "21",
+		"trnDisplayHour": "22 - 23",
+		"trnDate": "2021-08-26",
+		"trnHour": "22"
+	}, {
+		"trnInterval": "31-45",
+		"paxCount": "6",
+		"trnDisplayHour": "22 - 23",
+		"trnDate": "2021-08-26",
+		"trnHour": "22"
+	}]
+}

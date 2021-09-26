@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="2" cellspacing="2" cellpadding="8">
+        <tr>
+            <th>S.no</th>
+            <th>body</th>
+            <th>title</th>
+        </tr>
+        <tbody id="data">
+
+        </tbody>
+    </table>
+
+
+    <button id="btn" type="button">get data</button>
+
+
+    <script>
+        // var str = prompt("enter your palindrome")
+        // var len = str.length;
+        // var mid = Math.floor(len / 2);
+
+        // for (var i = 0; i < mid; i++) {
+        //     if (str[i] !== str[len - 1 - i]) {
+        //         alert(`${str} is not a palindrome`);
+        //     }
+        // }
+
+        // alert(`${str} is a palindrome`);
+
+        // var x = "venkatesh";
+        // var y = "hari";
+        // if (x > y) {
+        //     console.log("true")
+        // } else {
+        //     console.log("false")
+        // }
+        let button = document.querySelector('#btn')
+        button.addEventListener('click', function() {
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET", 'https://jsonplaceholder.typicode.com/posts', true);
+            xhr.send();
+            xhr.onload = () => {
+                if (xhr.status === 200) {
+                    let data = xhr.responseText;
+                    let allData = JSON.parse(data);
+                    console.log(allData);
+                    displayUsers(allData)
+                } else {
+                    console.log("404 error request");
+                }
+            }
+        })
+
+
+        let displayUsers = (allData) => {
+            let htmlTemplate = '';
+            for (let user of allData) {
+                htmlTemplate += '<tr>'
+                htmlTemplate += '<td>' + user.id + '</td>'
+                htmlTemplate += '<td>' + user.body + '</td>'
+                htmlTemplate += ' <td>' + user.title + '</td>'
+
+
+                htmlTemplate += '</tr>'
+            }
+
+            document.getElementById("data").innerHTML = htmlTemplate;
+
+        }
+
+
+
+        //   map functoalities
+
+        let str = ["venkatesh", "sakiri", "guruvrdhini", 'payyavula']
+
+        let objects = [{
+            id: 1,
+            name: "venkatesh",
+            salary: 45000,
+            place: "guntur"
+        }, {
+            id: 2,
+            name: "suresh",
+            salary: 24900,
+            place: "hyderabad"
+        }, {
+            id: 3,
+            name: "ramesh",
+            salary: 14522,
+            place: "vizag"
+        }]
+
+        let map = new Map();
+        map.set('data', str);
+        map.set('obj', objects)
+        console.log(map.get('data'));
+        console.log(map.get('obj'));
+    </script>
+</body>
+
+</html>

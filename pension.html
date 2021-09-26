@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin-left: 400px;
+        }
+        
+        input,
+        select,
+        button {
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form id="myform" method="POST" action="http://localhost:3000/comments">
+            <input type="text" placeholder="Enter your name" id="name"><br>
+            <select name="gender" id="gender">
+            <option value="">choose..</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="others">others</option>
+        </select>
+
+            <input type="tel" placeholder="Enter your mobile number" id="number"><br>
+
+            <input type="text" placeholder="Enter your Age" id="age">
+            <br>
+            <select name="pension" id="pension">
+            <option value="">choose..</option>
+            <option value="2000">PH</option>
+            <option value="2500">widow</option>
+            <option value="3000">Oladage</option>
+        </select><br>
+            <br>
+            <button type="button" onclick="applayForm()">Submit</button>
+        </form>
+    </div>
+    <table cellpadding="2" cellspacing="2" border="2" bgcolor="#dfdfdf" width="40%" id="myTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Mobile Number</th>
+                <th>Age</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody id="tableData">
+            <tr>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        function applayForm() {
+            var age = document.getElementById("age").value;
+            var type = document.getElementById("pension").value;
+            var gender = document.getElementById("gender").value;
+
+
+            console.log(gender)
+                // console.log(female)
+                // console.log(others)
+            if (age > 0) {
+                if ((age >= 7 && age <= 120 && type == 2000)) {
+                    alert('Your elgible to Physically handicaped pension of Rs.2000/-')
+                } else if (age <= 6 && type == 2000) {
+                    alert('Your not elgible to Physically handicaped pension ')
+                } else if (age > 120 && type == 2000) {
+                    alert('Your not elgible to Physically handicaped pension because of max age reached')
+                }
+                if ((age >= 35 && age <= 120 && type == 2500)) {
+                    if (gender == 'male') {
+                        alert("Males are not elgible to widow pension")
+                    } else if (gender == 'others') {
+                        alert("others are not elgible to widow pension")
+                    } else {
+                        alert('Your elgible to widow pension of Rs.2500/-')
+                    }
+                } else if ((age < 35 && type == 2500)) {
+                    alert('Your not elgible to widow pension ')
+                } else if (age > 120 && type == 2500) {
+                    alert('Your not elgible to widow pension because of max age reached')
+                }
+                if ((age >= 45 && age <= 120 && type == 3000)) {
+                    alert('Your elgible to Oladage pension of Rs.3000/-')
+                } else if (age < 45 && type == 3000) {
+                    alert('Your not  elgible to Oladage pension')
+                } else if (age > 120 && type == 3000) {
+                    alert('Your not elgible to widow pension because of max age reached')
+                }
+
+            } else if (age < 0) {
+                alert("please enter the positive number")
+            } else {
+                alert("Please enter the valid number")
+            }
+
+
+            var data = [];
+            var arr1 = []
+            var obj = {};
+            var arr2
+
+            {
+                obj.name = document.getElementById('name').value,
+                    obj.gender = document.getElementById('gender').value,
+                    obj.number = document.getElementById('number').value,
+                    obj.age = document.getElementById('age').value,
+                    obj.category = type
+            }
+
+
+            data.push(obj)
+            console.log(data)
+            console.log(obj);
+
+            var k = '<tbody>'
+            for (i = 0; i < data.length; i++) {
+                localStorage.setItem("data", JSON.stringify(data));
+                k += '<tr>';
+                k += '<td>' + data[i].name + '</td>';
+                k += '<td>' + data[i].gender + '</td>';
+                k += '<td>' + data[i].number + '</td>';
+                k += '<td>' + data[i].age + '</td>';
+                k += '<td>' + data[i].category + '</td>';
+                k += '</tr>';
+            }
+            k += '</tbody>';
+            document.getElementById('tableData').innerHTML += k;
+
+        }
+    </script>
+
+</body>
+
+</html>

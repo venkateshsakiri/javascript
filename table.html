@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./flight.json"></script>
+</head>
+
+<body>
+    <table border="2" cellspacing="4" cellpadding="5" style="text-align:center;margin-left:250px">
+        <tr>
+            <th>Hourly Bucket</th>
+            <th>Total Pax</th>
+            <th>0-15 min</th>
+            <th>15-30 min</th>
+            <th>30-45 min</th>
+            <th>45-60 min</th>
+            <th>60+ min</th>
+        </tr>
+    </table>
+
+
+
+    <script>
+        var myData = [];
+        var a = new Array();
+        fetch("flight.json")
+            .then(response => response.json())
+            .then(data => {
+
+                a = data.summary;
+                console.log(a);
+                const time0_15 = a.filter((b) => {
+                    return b.trnInterval === "0-15"
+                })
+                console.log(time0_15);
+
+                const time15_30 = a.filter((c) => {
+                    return c.trnInterval === "16-30"
+                })
+                console.log(time15_30);
+
+                const time30_45 = a.filter((d) => {
+                    return d.trnInterval === "31-45"
+                })
+                console.log(time30_45);
+
+
+                const time45_60 = a.filter((e) => {
+                    return e.trnInterval === "46-60"
+                })
+                console.log(time45_60);
+
+                const time60 = a.filter((f) => {
+                    return f.trnInterval === "> 60"
+                })
+                console.log(time60);
+
+
+
+            });
+
+
+
+
+
+
+
+
+
+        // var graphReport = myData.map(x => x.graphReport);
+        // console.log(graphReport);
+        // var summary = myData.map(x => x.graphReport);
+        // console.log(summary);
+
+
+
+
+        // graphReport.push(myData.graphReport);
+        // console.log(graphReport)
+        // summary.push(myData.summary);
+        // console.log(summary);
+        // var hourlybct = myData.filter((x) => x.graphReport.trnDisplayHour === '00-01')
+        // console.log(hourlybct);
+    </script>
+
+</body>
+
+</html>
